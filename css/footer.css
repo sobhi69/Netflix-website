@@ -1,0 +1,49 @@
+footer {
+    background-color: #171616;
+    padding: 2rem 5rem 4rem 5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer a {
+    font-size: 1.2rem;
+    color: #adadad;
+}
+
+footer .qs-contact {
+    display: block;
+    margin: 2rem 0;
+}
+
+footer .links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem 0;
+    margin-bottom: 2rem;
+}
+
+
+footer p {
+    margin-top: 2rem;
+    font-size: 1.2rem;   
+    color: white;
+}
+
+footer .lang {
+    position: relative;
+}
+
+footer .lang i {
+    position: absolute;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    font-size: 27.5px;
+}
+
+footer .lang select {
+    width: 100px;
+    text-align: right;
+    padding: 4px;
+}

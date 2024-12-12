@@ -1,0 +1,136 @@
+header {
+    background: url('/images/capa3.png') no-repeat center center/cover;
+    position: relative;
+    padding: 0 3rem;
+    width: 100%;
+    height: 90vh;
+    border-bottom: 10px solid #7f7c7c;
+}
+
+header .container {
+    width: 90%;
+    margin: auto;
+}
+
+header .best-div {
+    position: absolute;
+    left: 30%;
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    width: 5rem;
+    padding: 1.5rem;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 15rem;
+}
+
+header nav .netflix-logo {
+    width: 10rem;
+    height: 5rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+header nav .netflix-logo img {
+    border-radius: 2px;
+    width: 100%;
+    height: 100%;
+}
+
+header nav .sign-lang {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav .sign-lang .lang {
+    display: flex;
+    align-items: center;
+    background-color: #7f7c7c;
+    position: relative;
+    border-radius: 2px;
+}
+
+header nav .sign-lang .lang i {
+    pointer-events: none;
+    position: absolute;
+}
+
+header nav .sign-lang button {
+    padding: 6px 12px;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: 0.15s;
+    background-color: var(--primary-color);
+    color: white;
+    margin-left: 5px;
+}
+
+header nav .sign-lang button:hover {
+    opacity: 0.7;
+}
+
+header nav .sign-lang select {
+    padding: 6px 5px;
+    background: transparent;
+    border: none;
+    margin-left: 0.3rem;
+    width: 100px;
+    text-align: right;
+}
+
+header .try-it-now-box button {
+    text-transform: uppercase;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    font-size: 3.5rem;
+    width: 34rem;
+    margin: auto;
+    user-select: none;
+    margin-bottom: 20px;
+}
+
+header .try-it-now-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .try-it-now-box input {
+    padding: 1rem .5rem;
+    border-radius: 3px 0 0 3px;
+    outline: none;
+    border: none;
+    width: 30rem;
+}
+
+header .try-it-now-box input,
+header .try-it-now-box input::placeholder {
+    font-size: 16px;
+}
+
+header .try-it-now-box button {
+    padding: 1rem .5rem;
+    border: none;
+    background-color: var(--primary-color);
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+    border-radius: 0 3px 3px 0;
+}
+
+header h3 {
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+}

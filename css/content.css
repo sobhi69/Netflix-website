@@ -1,0 +1,103 @@
+.section {
+    background-color: #171616;
+    color: white;
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section .text {
+    width: 20rem;
+    margin-right: 2rem;
+    font-size: 1.8rem;
+}
+
+.section .image {
+    width: 20rem;
+}
+
+.section .image img {
+    width: 100%;
+}
+
+.section2 {
+    background-color: var(--primary-color);
+}
+
+.freq-section {
+    background-color: #171616;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 7rem 5rem 0 5rem ;
+    color: white;
+    height: 40rem;
+}
+
+.freq-section h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.freq-section .questions-btns {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 1.5rem 0 ;
+}
+
+.freq-section .questions-btns .group-question {
+    position: relative;
+}
+
+.freq-section .questions-btns button {
+    padding: 1rem;
+    width: 100%;
+    text-align: left;
+    background-color: rgb(67, 61, 61);
+    border: none;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin: 5px 0;
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+.freq-section .questions-btns button:hover {
+    opacity: 0.7;
+}
+
+.freq-section .get-started {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.freq-section .get-started button {
+    padding: 10px 22px;
+    border-radius: 18px;
+    border: none;
+    color:white;
+    background-color: var(--primary-color);
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: 0.15s;
+}
+
+.freq-section .get-started button:hover {
+    opacity: 0.7;
+}
+
+.freq-section .questions-btns .group-question i{
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translate(-50%,-50%);
+}
+
+.freq-section .get-started p {
+    font-size: 1.4rem;
+    margin-top: 0.7rem;
+}

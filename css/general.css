@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color : #e50914;
+
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: red;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: green;
+}
+
+@media (max-width:767px) {
+    html {
+        font-size: 13px;
+    }
+}
+
+@media (max-width:520px) {
+    html {
+        font-size: 11px;
+    }
+}
+
+
+/* 
+    // em is relative to the font size of the parent 
+    // rem is relative to the font size of the root element
+ */
